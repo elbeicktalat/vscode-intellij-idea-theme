@@ -1,0 +1,21 @@
+{
+    "name": "intellij-idea-theme",
+    "displayName": "intellij-idea-theme",
+    "description": "Implement the intellij idea theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "intellij",
+                "uiTheme": "vs",
+                "path": "./themes/intellij-color-theme.json"
+            }
+        ]
+    }
+}
