@@ -17,5 +17,21 @@
                 "path": "./themes/intellij-color-theme.json"
             }
         ]
+    },
+    "homepage": "https://github.com/elbeicktalat/vscode-intellij-idea-theme",
+    "author": {
+        "name": "Talat El Beick",
+        "email": "talatelbeick@gmail.com"
+    },
+    "watch": {
+        "build": "src"
+    },
+    "scripts": {
+        "build": "node src/index.js",
+        "watch": "npm-watch"
+    },
+    "devDependencies": {
+        "fs": "0.0.1-security",
+        "npm-watch": "^0.7.0"
     }
 }
