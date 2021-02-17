@@ -8,7 +8,7 @@ let activeBackground = "#eeeeee";
 let foreground = "#333333";
 let inactiveForeground = "#6e6e6e";
 let border = "#cccccc";
-
+let selectionBackground = "#a6d2ff";
 
 module.exports = colors = {
     "titleBar.activeBackground": activeBackground,
@@ -35,4 +35,17 @@ module.exports = colors = {
     "activityBar.activeBackground": activeBackground,
     "activityBar.inactiveForeground": inactiveForeground,
     "activityBar.activeBorder": primary,
+
+    "editor.background": background,
+    "editor.foreground": foreground,
+    "editor.findMatchBackground": selectionBackground,
+    "editor.findMatchBorder": "#505f5f",
+    "editor.findMatchHighlightBackground": "#ffe959",
+    "editor.hoverHighlightBackground": "#c9ecec",
+    "editor.lineHighlightBackground": "#fcfaed",
+    "editor.selectionBackground": selectionBackground,
+    "editor.wordHighlightBackground": "#c9ecec",
+    "editorGutter.background": "#f2f2f2",
+    "editorLineNumber.foreground": foreground,
+    "editorLineNumber.activeForeground": primary,
 };
