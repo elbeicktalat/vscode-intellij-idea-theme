@@ -9,6 +9,9 @@ let foreground = "#333333";
 let inactiveForeground = "#6e6e6e";
 let border = "#cccccc";
 let selectionBackground = "#a6d2ff";
+let gitAdded = "#a1e84e";
+let gitModified = "#ffb355";
+let gitDeleted = "#fe6365";
 
 module.exports = colors = {
     "titleBar.activeBackground": activeBackground,
@@ -45,7 +48,14 @@ module.exports = colors = {
     "editor.lineHighlightBackground": "#fcfaed",
     "editor.selectionBackground": selectionBackground,
     "editor.wordHighlightBackground": "#c9ecec",
-    "editorGutter.background": "#f2f2f2",
     "editorLineNumber.foreground": foreground,
     "editorLineNumber.activeForeground": primary,
+    "editorGutter.background": "#f2f2f2",
+    "editorGutter.addedBackground": gitAdded,
+    "editorGutter.modifiedBackground": gitModified,
+    "editorGutter.deletedBackground": gitDeleted,
+    "gitDecoration.addedResourceForeground": gitAdded,
+    "gitDecoration.modifiedResourceForeground": gitModified,
+    "gitDecoration.deletedResourceForeground": gitDeleted,
+    "gitDecoration.conflictingResourceForeground": "#6e8191"
 };
